@@ -6,8 +6,6 @@ document.body.onload = function() {
   cntx.strokeStyle="#000";
   cntx.lineWidth=2;
   cntx.lineCap="round";
-  cntx.fillStyle="#fff";
-  cntx.fillRect(0,0,canvas.width,canvas.height);
 
   canvas.onmousedown = canvas.ontouchstart = function(event) {
     if (event.target == canvas) {
