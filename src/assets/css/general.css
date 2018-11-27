@@ -16,7 +16,16 @@
 	background-color: #496b30;
 	color: #FFF;
 	font-weight: bold;
-  margin-top: 40px;
+}
+
+.c-button-warning {
+	background-color: #ffae00;
+	color: #FFF;
+	font-weight: bold;
+}
+
+.u-text-white {
+	color: #fff;
 }
 
 body {
