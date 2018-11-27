@@ -2,6 +2,25 @@
 
 Website para escribir tu cartita a Santa.
 
+## Requirements
+
+* node
+* npm
+
+## Installation
+
+Clone the repo, do
+
+```
+npm install
+```
+
+## Running
+
+```
+node server.js
+```
+
 ## License
 
 ### The MIT License
@@ -24,4 +43,3 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
