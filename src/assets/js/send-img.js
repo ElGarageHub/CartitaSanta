@@ -1,4 +1,4 @@
-var SERVER = 'http://localhost:5474/save-image';
+var SERVER = 'https://elgaragehub.com:5474/save-image';
 
 function sendCanvasImg() {
   var dataURL = can.toDataURL();
