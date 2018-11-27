@@ -2,6 +2,28 @@
 
 Website para escribir tu cartita a Santa.
 
+## Requirements
+
+* node
+* npm
+
+## Installation
+
+Clone the repo, do
+
+```
+npm install
+```
+
+and change the first line on `src/assets/js/send-img.js` to point to the URL
+where the server is hosted.
+
+## Running
+
+```
+node server.js
+```
+
 ## License
 
 ### The MIT License
