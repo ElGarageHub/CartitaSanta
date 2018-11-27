@@ -53,3 +53,7 @@ document.body.onload = function() {
     }
   };
 }
+
+function clearCanvas() {
+  can.getContext("2d").clearRect(0, 0, can.width, can.height);
+}
