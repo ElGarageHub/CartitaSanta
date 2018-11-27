@@ -1,10 +1,4 @@
-# CartitaSanta
-
-Website para escribir tu cartita a Santa.
-
-## License
-
-### The MIT License
+# The MIT License
 
 Copyright (c) 2018 El Garage Project Hub, Javier Rizzo Aguirre, Erick Alva.
 
