@@ -13,10 +13,18 @@
     </header>
     <div class="o-container--full u-px0">
       <div id="particles-js"></div>
-      <div class="c-modal">
+      <div id="modalOk" class="c-modal">
         <div class="c-modal__container">
           <h2 class="u-mb0">¡Tu Cartita fue enviada al Taller de Santa!</h2>
-          <button type="button" class="c-modal__close" aria-label="close">
+          <button type="button" class="c-modal__close" aria-label="close" onclick="modalOk.style.display = 'none';">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      </div>
+      <div id="modalErr" class="c-modal">
+        <div class="c-modal__container">
+          <h2 class="u-mb0">Ocurrió un error al enviar tu cartita. Inténtalo más tarde 😞.</h2>
+          <button type="button" class="c-modal__close" aria-label="close" onclick="modalErr.style.display = 'none';">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>

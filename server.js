@@ -33,7 +33,12 @@ app.post('/save-image', function(req, res) {
     base64Data,
     'base64',
     function(err) {
-      if(err) console.log(err);
+      if(err) {
+        console.log(err);
+        res.send("ERROR: " + err);
+      } else {
+        res.send("OK");
+      }
     }
   );
 });

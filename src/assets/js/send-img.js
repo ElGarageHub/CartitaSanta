@@ -7,6 +7,13 @@ function sendCanvasImg() {
   req.setRequestHeader('Content-Type', 'text/plain');
   req.onreadystatechange = function() {
     if(this.readyState == 4 && this.status == 200) {
+      if(req.responseText == 'OK') {
+        modalOk.style.display = "block";
+      } else {
+        modalErr.style.display = "block";
+      }
+    } else if(this.readyState == 4 && this.status != 200) {
+      modalErr.style.display = "block";
     }
   };
   req.send(dataURL);
