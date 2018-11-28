@@ -31,3 +31,7 @@
 body {
   background-color: #F7E0A5;
 }
+
+.c-modal {
+	display: hidden;
+}
