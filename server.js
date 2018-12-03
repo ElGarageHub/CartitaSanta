@@ -43,6 +43,18 @@ app.post('/save-image', function(req, res) {
   );
 });
 
+app.get('/image-list', function(req, res) {
+  fs.readdir('./received-images', function(err, items) {
+    if(err) {
+      console.log(err);
+      res.send('ERROR: ' + err);
+    } else {
+      console.log(items.filter(file => file.endsWith('.png')));
+      res.send(items.filter(file => file.endsWith('.png')));
+    }
+  });
+});
+
 let httpsServer = https.createServer(credentials, app);
 httpsServer.listen(PORT, () => console.log('Listening on port ' + PORT));
 
